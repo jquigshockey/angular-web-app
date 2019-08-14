@@ -9,7 +9,6 @@ import { MaterialModule } from 'src/material-module';
 import { PlayersListComponent } from './players-list/players-list.component';
 import { InstructorsListComponent } from './instructors-list/instructors-list.component';
 import { AddPlayerComponent } from './add-player/add-player.component';
-import { AddInstructorComponent } from './add-instructor/add-instructor.component';
 import { EditPlayerComponent } from './edit-player/edit-player.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { ManageComponent } from './manage/manage.component';
@@ -22,7 +21,6 @@ import { ManageComponent } from './manage/manage.component';
     PlayersListComponent,
     InstructorsListComponent,
     AddPlayerComponent,
-    AddInstructorComponent,
     EditPlayerComponent,
     ScheduleComponent,
     ManageComponent

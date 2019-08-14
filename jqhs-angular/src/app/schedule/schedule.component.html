@@ -1,5 +1,11 @@
-<mat-list role="list">
-        <mat-list-item role="listitem">1: Check In 8</mat-list-item>
-        <mat-list-item role="listitem">1: On Ice </mat-list-item>
-        <mat-list-item role="listitem">Item 3</mat-list-item>
-      </mat-list>
+<mat-list>
+        <mat-list-item *ngFor="let list of times">
+          <mat-icon matListIcon>{{list.icon}}</mat-icon>
+          <h3 matLine>{{list.name}}</h3>
+          <p matLine>
+            <span></span>
+            <span class="demo-2"> {{list.time}} </span>
+            <span class="demo-2"> Group: {{list.group}} </span>
+          </p>
+        </mat-list-item>
+</mat-list>
